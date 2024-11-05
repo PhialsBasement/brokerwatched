@@ -1,0 +1,54 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    background-image: url('../../assets/waves.jpg');
+    background-size: cover;
+  }
+  .kys {
+    content: url('../../assets/logo.png');
+    padding-bottom: 15%;
+  }
+  .login-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input {
+    border: 2px solid #0056b3;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #004494;
+  }
+  
+  .message {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  

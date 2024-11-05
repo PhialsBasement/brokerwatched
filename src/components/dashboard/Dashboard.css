@@ -1,0 +1,73 @@
+.dashboard {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    padding: 20px;
+    padding-bottom: 100vh;
+    overflow: hidden;
+    background-size: contain;
+}
+* {
+    color: black;
+}
+p {
+    color:#0000fd;
+}
+#moneh {
+    font-weight: 900;
+    font-size: xx-large;
+    margin-bottom: 10%;
+}
+#bondexp {
+    font-weight: 900;
+    font-size: xx-large;
+    margin-bottom: 10%;
+}
+#bondmoneh {
+    font-weight: 900;
+    font-size: xx-large;
+}
+h2 {
+    margin-top: 5%!important;
+}
+#brep {
+    font-weight: 900;
+    font-size: xx-large;
+}
+#search #title {
+    text-align: left !important;
+}
+#search {
+    font-size: x-large;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.data-block {
+    background-color: #315df9;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px
+}
+
+.data-block.empty {
+    background-color: transparent;
+}
+.data-block.stat {
+    background-color: #969fd2;
+}
+
+.data-block h2 {
+    margin: 0 0 10px;
+}
+
+.data-block p {
+    font-size: 1.2em;
+    margin: 0;
+}
